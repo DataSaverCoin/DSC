@@ -1,4 +1,4 @@
-##DataSaverCoin
+###DataSaverCoin
 DataSaverCoin is a cutting edge cryptocurrency that will be used on the DataSaver App/Network.
 - CPU/GPU Mineable.
 - Fast block time -60 seconds-.
