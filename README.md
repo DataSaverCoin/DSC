@@ -12,7 +12,6 @@ More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN th
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every 3 Blocks</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>500,000,000 DSC</td></tr>
-<tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
 <tr><td>Premine in block 1</td><td>50 DSC*</td></tr>
 <tr><td>Premine in block 2</td><td>5,000,000 DSC*</td></tr>
 <tr><td>Mining reward in blocks 3-5,000</td><td>500 DSC*</td></tr>
