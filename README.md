@@ -1,5 +1,4 @@
-
-===================
+##DataSaverCoin
 DataSaverCoin is a cutting edge cryptocurrency that will be used on the DataSaver App/Network.
 - CPU/GPU Mineable.
 - Fast block time -60 seconds-.
@@ -16,10 +15,10 @@ More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN th
 <tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
 <tr><td>Premine in block 1</td><td>50 DSC*</td></tr>
 <tr><td>Premine in block 2</td><td>5,000,000 DSC*</td></tr>
-<tr><td>Premine in block 3-5,000</td>500 DSC*</td></tr>
-<tr><td>Premine in block 5,001-10,000</td>250 DSC*</td></tr>
-<tr><td>Premine in block 10,001-84,000</td>125 DSC*</td></tr>
-<tr><td>Premine reward halves every</td>84,000 Blocks</td></tr>
+<tr><td>Premine in block 3-5,000</td><td>500 DSC*</td></tr>
+<tr><td>Premine in block 5,001-10,000</td><td>250 DSC*</td></tr>
+<tr><td>Premine in block 10,001-84,000</td><td>125 DSC*</td></tr>
+<tr><td>Premine reward halves every</td><td>84,000 Blocks</td></tr>
 
 
 </table>
