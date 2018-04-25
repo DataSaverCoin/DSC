@@ -1,7 +1,7 @@
 ### DataSaverCoin
 DataSaverCoin is a cutting edge cryptocurrency that will be used on the DataSaver App/Network.
 - CPU/GPU Mineable.
-- Fast block time -60 seconds-.
+- Fast block time _60 seconds_.
 - Difficutly is recalculated every 3 blocks.
 
 More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=DataSaver)
@@ -10,6 +10,7 @@ More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN th
 <table>
 <tr><td>Algo</td><td>Scrypt</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
+<tr><td>Maturity</td><td>40 Blocks</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every 3 Blocks</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>500,000,000 DSC</td></tr>
 <tr><td>Premine in block 1</td><td>50 DSC*</td></tr>
