@@ -1,0 +1,34 @@
+src/*.exe
+src/datasavercoin
+src/datasavercoind
+src/test_datasavercoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.datasavercoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+datasavercoin-qt
+Datasavercoin-Qt.app
+
+# Unit-tests
+Makefile.test
+datasavercoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
