@@ -35,7 +35,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x2e7246d49a1b87fb561c7f8754d88cdf8fe69b13b49f99caa7a251504048172d");
+uint256 hashGenesisBlock("0xf733b0a36e67e7e9d9661390d78340d69064cb8da6823ff40bc76c2ae45a4d80");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Datasavercoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -1090,7 +1090,7 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
     int64 nSubsidy = 500 * COIN;
    
    if(nHeight ==2){
-	nSubsidy = 5000000 * COIN;
+	nSubsidy = 25000000 * COIN;
 }else if(nHeight < 5000) {
 	nSubsidy = 500 * COIN;
 }else if(nHeight < 10000){
@@ -2750,11 +2750,11 @@ bool LoadBlockIndex()
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0xe3;
-        pchMessageStart[1] = 0xa2;
+        pchMessageStart[0] = 0xe7;
+        pchMessageStart[1] = 0xa8;
         pchMessageStart[2] = 0xb7;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x2e7246d49a1b87fb561c7f8754d88cdf8fe69b13b49f99caa7a251504048172d");
+        hashGenesisBlock = uint256("0xf733b0a36e67e7e9d9661390d78340d69064cb8da6823ff40bc76c2ae45a4d80");
     }
 
     //
@@ -2787,26 +2787,26 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "This Coin was created on 4/23/2018 Bitcoin price is 8900$ today";
+        const char* pszTimestamp = "This Coin was created on 5/11/2018 Bitcoin price is 8900$ today";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 50 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("723084710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("723184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1524502382;
+        block.nTime    = 1526009824;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 282487;
+        block.nNonce   = 62770;
 
         if (fTestNet)
         {
-            block.nTime    = 1524502382;
-            block.nNonce   = 282487;
+            block.nTime    = 1526009824;
+            block.nNonce   = 62770;
         }
 
         //// debug print
@@ -2814,7 +2814,7 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xdbab555d232b7f2eef5d85187fd37761b8a2902f492dd20239d7c3fae7dbb987"));
+        assert(block.hashMerkleRoot == uint256("0xdec513fb8018f9bdc702d5bdea5c9a9b4481e13d6ed57cbc7139002d8090a7d3"));
 	if (true && block.GetHash() != hashGenesisBlock)
 {
 printf("Searching for genesis block...\n");
