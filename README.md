@@ -13,8 +13,8 @@ More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN th
 <tr><td>Maturity</td><td>40 Blocks</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every 3 Blocks</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>500,000,000 DSC</td></tr>
-<tr><td>Premine in block 1</td><td>50 DSC*</td></tr>
-<tr><td>Premine in block 2</td><td>5,000,000 DSC*</td></tr>
+<tr><td>Premine in block 1</td><td>500 DSC*</td></tr>
+<tr><td>Premine in block 2</td><td>25,000,000 DSC*</td></tr>
 <tr><td>Mining reward in blocks 3-5,000</td><td>500 DSC*</td></tr>
 <tr><td>Mining reward in blocks 5,001-10,000</td><td>250 DSC*</td></tr>
 <tr><td>Mining reward in blocks 10,001-84,000</td><td>125 DSC*</td></tr>
