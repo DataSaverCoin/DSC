@@ -4,7 +4,7 @@ DataSaverCoin is a cutting edge cryptocurrency that will be used on the DataSave
 - Fast block time _60 seconds_.
 - Difficutly is recalculated every 3 blocks.
 
-More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=DataSaver)
+More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=3698419)
 
 ### Coin Specs
 <table>
