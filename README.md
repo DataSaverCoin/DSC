@@ -17,8 +17,8 @@ More information at [datasaver.org](https://www.datasaver.org/) Visit our ANN th
 <tr><td>Premine in block 2</td><td>25,000,000 DSC*</td></tr>
 <tr><td>Mining reward in blocks 3-5,000</td><td>500 DSC*</td></tr>
 <tr><td>Mining reward in blocks 5,001-10,000</td><td>250 DSC*</td></tr>
-<tr><td>Mining reward in blocks 10,001-84,000</td><td>125 DSC*</td></tr>
-<tr><td># Miningreward halves every</td><td>84,000 Blocks</td></tr>
+<tr><td>Mining reward in blocks 10,001-840,000</td><td>125 DSC*</td></tr>
+<tr><td># Miningreward halves every</td><td>840,000 Blocks</td></tr>
 
 
 </table>
