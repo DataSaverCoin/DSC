@@ -1093,8 +1093,12 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 	nSubsidy = 25000000 * COIN;
 }else if(nHeight < 5000) {
 	nSubsidy = 500 * COIN;
-}else if(nHeight < 10000){
-	nSubsidy = 250 * COIN;
+}else if(nHeight < 100000){
+	nSubsidy = 500 * COIN;
+}else if(nHeight < 840000){
+	nSubsidy = 300 * COIN;
+}else if(nHeight > 840000){
+	nSubsidy = 200 * COIN;
 }
 
     // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
