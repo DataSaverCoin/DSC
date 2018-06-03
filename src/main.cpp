@@ -1101,8 +1101,8 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 	nSubsidy = 200 * COIN;
 }
 
-    // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
-    nSubsidy >>= (nHeight / 500000); // Datasavercoin: 840k blocks in ~4 years
+    // Subsidy is cut in half every 500000 blocks, which will occur approximately every 300 days
+    nSubsidy >>= (nHeight / 500000); // Datasavercoin: 500k blocks in ~300 dayss
 
     return nSubsidy + nFees;
 }
