@@ -1175,6 +1175,7 @@ void MapPort(bool)
 static const char *strMainNetDNSSeed[][2] = {
     {"datasavercointools.com", "162.204.48.211"},
     {"seed.datasaver.org", "162.243.43.239"},
+    {"explorer.datasaver.org", "206.189.144.34"}
 
     {NULL, NULL}
 };
